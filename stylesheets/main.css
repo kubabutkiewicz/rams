@@ -62,9 +62,6 @@
   .principles__item--first {
     width: 25%;
     margin-left: 110px; } }
-@media screen and (min-width: 1440px) {
-  .principles__item--first {
-    width: 30%; } }
 @media screen and (min-width: 1920px) {
   .principles__item--first {
     width: 20%; } }
@@ -98,8 +95,7 @@
   .principles__item--third,
   .principles__item--forth,
   .principles__item--fifth {
-    margin-top: -30%;
-    width: 25%; } }
+    margin-top: -30%; } }
 
 @media screen and (min-width: 768px) {
   .principles__item--fifth {
@@ -111,6 +107,9 @@
 @media screen and (min-width: 1366px) {
   .principles__item--fifth {
     margin-top: -26%; } }
+@media screen and (min-width: 1440px) {
+  .principles__item--fifth {
+    margin-top: -30%; } }
 
 @media screen and (min-width: 768px) {
   .principles__item--forth {
@@ -121,6 +120,9 @@
 @media screen and (min-width: 1366px) {
   .principles__item--forth {
     margin-top: -25%; } }
+@media screen and (min-width: 1440px) {
+  .principles__item--forth {
+    margin-top: -30%; } }
 
 @media screen and (min-width: 768px) {
   .principles__item--third {
@@ -131,6 +133,9 @@
 @media screen and (min-width: 1366px) {
   .principles__item--third {
     margin-top: -25%; } }
+@media screen and (min-width: 1440px) {
+  .principles__item--third {
+    margin-top: -29%; } }
 
 .gallery__thumbnail {
   margin: 0; }

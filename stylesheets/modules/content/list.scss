@@ -70,9 +70,6 @@
         width: 25%;
         margin-left: 110px;
     }
-    @media screen and (min-width: $breakpoint-xxl) {
-        width: 30%;
-    }
     @media screen and (min-width: $breakpoint-fullhd) {
         width: 20%;
     }
@@ -100,7 +97,6 @@
     }
     @media screen and (min-width: $breakpoint-xxl) {
         margin-top: -30%;
-        width: 25%;
     }
 }
 
@@ -115,6 +111,9 @@
     @media screen and (min-width: $breakpoint-lgdesktop) {
         margin-top: -26%;
     }
+    @media screen and (min-width: $breakpoint-xxl) {
+        margin-top: -30%;
+    }
 }
 .principles__item--forth {
     @media screen and (min-width: $breakpoint-tablet) {
@@ -125,6 +124,9 @@
     }
     @media screen and (min-width: $breakpoint-lgdesktop) {
         margin-top: -25%;
+    }
+    @media screen and (min-width: $breakpoint-xxl) {
+        margin-top: -30%;
     }
 
 }
@@ -137,5 +139,8 @@
     }
     @media screen and (min-width: $breakpoint-lgdesktop) {
         margin-top: -25%;
+    }
+    @media screen and (min-width: $breakpoint-xxl) {
+        margin-top: -29%;
     }
 }
