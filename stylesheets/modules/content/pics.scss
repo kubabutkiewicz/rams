@@ -1,0 +1,29 @@
+@import '../../vars/fonts';
+@import '../../vars/colors';
+
+.gallery__thumbnail {
+    margin: 0;
+    @media screen and (min-width: $breakpoint-tablet) {
+        margin-top: 30px;
+    }
+    @media screen and (min-width: $breakpoint-lgdesktop) {
+        padding-right: 70px;
+    }
+    
+    & .gallery__pic--first {
+        position: relative;
+    }
+    & .gallery__signature--first {
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+    }
+    & .gallery__signature {
+        margin-top: 20px;
+        width: 50%;
+        & .gallery__signature--bold {
+            font-weight: 700;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,224 @@
+.principles__item {
+  font-family: "Arial";
+  text-align: center;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .principles__item {
+      text-align: left;
+      padding-left: 50px; } }
+  .principles__item .principles__title {
+    font-family: "Arial Black";
+    color: #FF4617;
+    font-size: 150px;
+    padding-top: 0; }
+    @media screen and (min-width: 768px) {
+      .principles__item .principles__title {
+        font-size: 100px;
+        margin-top: 0; } }
+    @media screen and (min-width: 992px) {
+      .principles__item .principles__title {
+        font-size: 90px; } }
+    @media screen and (min-width: 1366px) {
+      .principles__item .principles__title {
+        font-size: 150px; } }
+  .principles__item .principles__subtitle {
+    font-family: "Arial Black";
+    font-size: 28px; }
+    @media screen and (min-width: 768px) {
+      .principles__item .principles__subtitle {
+        font-size: 13px;
+        margin-top: -10px; } }
+    @media screen and (min-width: 992px) {
+      .principles__item .principles__subtitle {
+        font-size: 20px; } }
+    @media screen and (min-width: 1366px) {
+      .principles__item .principles__subtitle {
+        font-size: 28px; } }
+  .principles__item .principles__text {
+    color: #9B9B9B;
+    font-size: 15px;
+    line-height: 20px; }
+    @media screen and (min-width: 768px) {
+      .principles__item .principles__text {
+        font-size: 11px;
+        line-height: 15px; } }
+    @media screen and (min-width: 992px) {
+      .principles__item .principles__text {
+        font-size: 13px;
+        line-height: 22px; } }
+    @media screen and (min-width: 1366px) {
+      .principles__item .principles__text {
+        font-size: 15px;
+        line-height: 24px; } }
+
+@media screen and (min-width: 768px) {
+  .principles__item--first {
+    margin-top: 10px; } }
+@media screen and (min-width: 992px) {
+  .principles__item--first {
+    width: 28%;
+    margin-left: 50px; } }
+@media screen and (min-width: 1366px) {
+  .principles__item--first {
+    width: 25%;
+    margin-left: 110px; } }
+@media screen and (min-width: 1440px) {
+  .principles__item--first {
+    width: 30%; } }
+@media screen and (min-width: 1920px) {
+  .principles__item--first {
+    width: 20%; } }
+
+@media screen and (min-width: 768px) {
+  .principles__item--sec,
+  .principles__item--third,
+  .principles__item--forth,
+  .principles__item--fifth {
+    margin-top: -28%;
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+@media screen and (min-width: 992px) {
+  .principles__item--sec,
+  .principles__item--third,
+  .principles__item--forth,
+  .principles__item--fifth {
+    margin-top: -30%;
+    width: 28%;
+    margin-left: 50px; } }
+@media screen and (min-width: 1366px) {
+  .principles__item--sec,
+  .principles__item--third,
+  .principles__item--forth,
+  .principles__item--fifth {
+    margin-top: -28%;
+    width: 25%;
+    margin-left: 110px; } }
+@media screen and (min-width: 1440px) {
+  .principles__item--sec,
+  .principles__item--third,
+  .principles__item--forth,
+  .principles__item--fifth {
+    margin-top: -30%;
+    width: 25%; } }
+
+@media screen and (min-width: 768px) {
+  .principles__item--fifth {
+    padding-left: 35px;
+    margin-top: -44%; } }
+@media screen and (min-width: 992px) {
+  .principles__item--fifth {
+    margin-top: -35%; } }
+@media screen and (min-width: 1366px) {
+  .principles__item--fifth {
+    margin-top: -26%; } }
+
+@media screen and (min-width: 768px) {
+  .principles__item--forth {
+    margin-top: -36%; } }
+@media screen and (min-width: 992px) {
+  .principles__item--forth {
+    margin-top: -33%; } }
+@media screen and (min-width: 1366px) {
+  .principles__item--forth {
+    margin-top: -25%; } }
+
+@media screen and (min-width: 768px) {
+  .principles__item--third {
+    margin-top: -32%; } }
+@media screen and (min-width: 992px) {
+  .principles__item--third {
+    margin-top: -33%; } }
+@media screen and (min-width: 1366px) {
+  .principles__item--third {
+    margin-top: -25%; } }
+
+.gallery__thumbnail {
+  margin: 0; }
+  @media screen and (min-width: 768px) {
+    .gallery__thumbnail {
+      margin-top: 30px; } }
+  @media screen and (min-width: 1366px) {
+    .gallery__thumbnail {
+      padding-right: 70px; } }
+  .gallery__thumbnail .gallery__pic--first {
+    position: relative; }
+  .gallery__thumbnail .gallery__signature--first {
+    position: absolute;
+    bottom: 10px;
+    left: 30px; }
+  .gallery__thumbnail .gallery__signature {
+    margin-top: 20px;
+    width: 50%; }
+    .gallery__thumbnail .gallery__signature .gallery__signature--bold {
+      font-weight: 700;
+      display: block; }
+
+.navbar-inverse .navbar-brand {
+  color: #EFEFEF;
+  font-family: "Arial";
+  font-size: 17px; }
+
+.navbar .navbar-nav li a {
+  color: #EFEFEF; }
+@media screen and (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+    .navbar .navbar-nav li:first-child {
+      border-left: 1px solid #3D3D3D;
+      border-right: 1px solid #3D3D3D; }
+    .navbar .navbar-nav li:last-child {
+      border-right: 1px solid #3D3D3D;
+      border-left: 1px solid #3D3D3D; }
+    .navbar .navbar-nav li:nth-child(2) {
+      border-right: 1px solid #3D3D3D; }
+    .navbar .navbar-nav li:nth-child(3) {
+      border-right: 1px solid #3D3D3D; } }
+
+@media screen and (min-width: 768px) {
+  .navbar .navbar-collapse {
+    text-align: center; } }
+
+.hero {
+  height: 100vh;
+  background-image: url("../images/13cbb9642a213ba7605e66a0a25d861c-1.jpg");
+  background-position: center;
+  background-size: cover; }
+  .hero .hero__title {
+    font-family: "Arial Black";
+    font-size: 40px;
+    margin-top: 40px; }
+    @media screen and (min-width: 768px) {
+      .hero .hero__title {
+        width: 50%;
+        margin-top: 275px; } }
+    @media screen and (min-width: 992px) {
+      .hero .hero__title {
+        width: 40%; } }
+  .hero .hero__title--secondaryColor {
+    color: #FF4617;
+    display: block; }
+
+body {
+  font-family: "Arial"; }
+
+button {
+  background: 0;
+  border: 0; }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+.navbar-btn {
+  margin-bottom: 0; }
+
+.btn {
+  padding: 6px 12px 0 12px;
+  border: 0; }
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,141 @@
+@import '../../vars/fonts';
+@import '../../vars/colors';
+@import '../../vars/breakpoints';
+.principles__item {
+    font-family: $mainFont;
+    text-align: center;
+    margin: 0 auto;
+    @media screen and (min-width: $breakpoint-tablet) {
+        text-align: left;
+        padding-left: 50px;
+    }
+    & .principles__title {
+        font-family: $secondaryFont;
+        color: $secondaryColor;
+        font-size: $paragraphTitleFontSizeD;
+        padding-top: 0;
+        @media screen and (min-width: $breakpoint-tablet) {
+            font-size: $paragraphTitleFontSizeM;
+            margin-top: 0;
+        }
+        @media screen and (min-width: $breakpoint-desktop) {
+            font-size: $paragraphTitleFontSizeT;
+        }
+        @media screen and (min-width: $breakpoint-lgdesktop) {
+            font-size: $paragraphTitleFontSizeD;
+        }
+    }
+    & .principles__subtitle {
+        font-family: $secondaryFont;
+        font-size: $commonTextD;
+        @media screen and (min-width: $breakpoint-tablet) {
+            font-size: $paragraphFontSizeT;
+            margin-top: -10px;
+        }
+        @media screen and (min-width: $breakpoint-desktop) {
+            font-size: $subtitleFontSizeD;
+        }
+        @media screen and (min-width: $breakpoint-lgdesktop) {
+            font-size: $commonTextD;
+        }
+    }
+    & .principles__text {
+        color: $paragraphText;
+        font-size: 15px;
+        line-height: 20px;
+        @media screen and (min-width: $breakpoint-tablet) {
+            font-size: 11px;
+            line-height: 15px;
+        }
+        @media screen and (min-width: $breakpoint-desktop) {
+            font-size: $paragraphFontSizeT;
+            line-height: 22px;
+        }
+        @media screen and (min-width: $breakpoint-lgdesktop) {
+            font-size: $paragraphFontSizeD;
+            line-height: 24px;
+        }
+    }
+}
+
+.principles__item--first {
+    @media screen and (min-width: $breakpoint-tablet) {
+        margin-top: 10px;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        width: 28%;
+        margin-left: 50px;
+    }
+    @media screen and (min-width: $breakpoint-lgdesktop) {
+        width: 25%;
+        margin-left: 110px;
+    }
+    @media screen and (min-width: $breakpoint-xxl) {
+        width: 30%;
+    }
+    @media screen and (min-width: $breakpoint-fullhd) {
+        width: 20%;
+    }
+}
+
+.principles__item--sec,
+.principles__item--third,
+.principles__item--forth,
+.principles__item--fifth {
+    @media screen and (min-width: $breakpoint-tablet) {
+        margin-top: -28%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        margin-top: -30%;
+        width: 28%;
+        margin-left: 50px;
+        
+    }
+    @media screen and (min-width: $breakpoint-lgdesktop) {
+        margin-top: -28%;
+        width: 25%;
+        margin-left: 110px;
+    }
+    @media screen and (min-width: $breakpoint-xxl) {
+        margin-top: -30%;
+        width: 25%;
+    }
+}
+
+.principles__item--fifth {
+    @media screen and (min-width: $breakpoint-tablet) {
+        padding-left: 35px;
+        margin-top: -44%;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        margin-top: -35%;
+    }
+    @media screen and (min-width: $breakpoint-lgdesktop) {
+        margin-top: -26%;
+    }
+}
+.principles__item--forth {
+    @media screen and (min-width: $breakpoint-tablet) {
+        margin-top: -36%;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        margin-top: -33%;
+    }
+    @media screen and (min-width: $breakpoint-lgdesktop) {
+        margin-top: -25%;
+    }
+
+}
+.principles__item--third {
+    @media screen and (min-width: $breakpoint-tablet) {
+        margin-top: -32%;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        margin-top: -33%;
+    }
+    @media screen and (min-width: $breakpoint-lgdesktop) {
+        margin-top: -25%;
+    }
+}

@@ -1,0 +1,64 @@
+@import '../../vars/fonts';
+@import '../../vars/colors';
+@import '../../vars/breakpoints';
+.navbar-inverse .navbar-brand {
+    color: $navFontColor;
+    font-family: $mainFont;
+    font-size: 17px;
+}
+
+.navbar .navbar-nav {
+    & li a{
+        color: $navFontColor;
+    }
+    @media screen and (min-width: $breakpoint-tablet) {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        & li {
+            &:first-child {
+                border-left: 1px solid #3D3D3D;
+                border-right: 1px solid #3D3D3D;
+            }
+            &:last-child {
+                border-right: 1px solid #3D3D3D;
+                border-left: 1px solid #3D3D3D;
+            }
+            &:nth-child(2) {
+                border-right: 1px solid #3D3D3D;
+            }
+            &:nth-child(3) {
+                border-right: 1px solid #3D3D3D;
+            }
+        }
+    }
+}
+
+.navbar .navbar-collapse {
+    @media screen and (min-width: $breakpoint-tablet) {
+        text-align: center;
+    }
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('../images/13cbb9642a213ba7605e66a0a25d861c-1.jpg');
+    background-position: center;
+    background-size: cover;
+    & .hero__title {
+        font-family: $secondaryFont;
+        font-size: $titleFontSizeM;
+        margin-top: 40px;
+        @media screen and (min-width: $breakpoint-tablet) {
+            width: 50%;
+            margin-top: 275px;
+        }
+        @media screen and (min-width: $breakpoint-desktop) {
+            width: 40%;
+        }
+    }
+    & .hero__title--secondaryColor {
+        color: $secondaryColor;
+        display: block;
+    }
+}
