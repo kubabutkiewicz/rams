@@ -1,0 +1,69 @@
+@import 'list';
+@import 'pics';
+.content {
+    margin: 50px 30px;
+    display: grid; 
+    grid-template-areas: 
+    "first first list-first"
+    "first first list-second"
+    "second third list-third"
+    "forth fifth list-forth"
+    "sixth seventh list-fifth";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    @media only screen and (max-width: 768px) {
+    grid-template-areas: 
+    "list-first"
+    "first"
+    "second"
+    "list-second"
+    "third"
+    "forth"
+    "list-third"
+    "fifth"
+    "sixth"
+    "list-forth"
+    "seventh"
+    "list-fifth";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    }
+    & .principles__item--first {
+        grid-area: list-first;
+    }
+    & .principles__item--second {
+        grid-area: list-second;
+    }
+    & .principles__item--third {
+        grid-area: list-third;
+    }
+    & .principles__item--forth {
+        grid-area: list-forth;
+    }
+    & .principles__item--fifth {
+        grid-area: list-fifth;
+    }
+    & .gallery--first {
+        grid-area: first;
+    }
+    & .gallery--second {
+        grid-area: second;
+    }
+    & .gallery--third {
+        grid-area: third;
+    }
+    & .gallery--forth {
+        grid-area: forth;
+    }
+    & .gallery--fifth {
+        grid-area: fifth;
+    }
+    & .gallery--sixth {
+        grid-area: sixth;
+    }
+    & .gallery--seventh {
+        grid-area: seventh;
+    }
+}

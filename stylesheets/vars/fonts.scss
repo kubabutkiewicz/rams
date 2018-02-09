@@ -1,19 +1,20 @@
 $mainFont: 'Arial';
 $secondaryFont: 'Arial Black';
-//large desktop
-$navFontSizeD: 17px;
-$titleFontSizeD: 72px;
-$paragraphTitleFontSizeD: 150px;
-$commonTextD: 28px;
-$subtitleFontSizeD: 20px;
-$paragraphFontSizeD: 15px;
-//mobile 
-$navFontSizeM: 10px;
-$titleFontSizeM: 40px;
-$paragraphTitleFontSizeM: 100px;
-$commonTextM: 14px;
-$paragraphFontSizeM: 10px;
-//tablet 
-$paragraphTitleFontSizeT: 90px;
-$subtitleT: 14px;
-$paragraphFontSizeT: 13px;
+//desktop
+$navFontSizeD: 1.7rem;
+$titleFontSizeD: 5rem;
+$paragraphTitleFontSizeD: 18rem;
+$commonTextD: 2.8rem;
+$subtitleFontSizeD: 2.5rem;
+$paragraphFontSizeD: 1.7rem;
+// tablet lg
+$paragraphFontSizeT: 1.3rem;
+$paragraphTitleFontSizeT: 15rem;
+$subtitleFontSizeT: 2.2rem;
+// tablet sm
+$paragraphFontSizeTsm: 1.2rem;
+$paragraphTitleFontSizeTsm: 10rem;
+$subtitleFontSizeTsm: 2rem;
+$titleFontSizeTsm: 4rem;
+// mobile 
+$titleFontSizeM: 2.5rem;
