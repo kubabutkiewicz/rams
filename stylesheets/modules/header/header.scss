@@ -67,6 +67,12 @@
         @media only screen and (max-width: 930px) {
             font-size: $titleFontSizeTsm;
         }
+        @media only screen and (max-width: 768px) {
+            font-size: $titleFontSizeM;
+        }
+        @media only screen and (max-width: 503px) {
+            font-size: 1.5rem;
+        }
         & .hero__title {
             grid-area: header-title;
         }
